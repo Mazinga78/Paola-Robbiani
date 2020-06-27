@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paola Robbiani - Decori & Restauri</title>
+  
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Put here google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Muli:wght@500&display=swap" rel="stylesheet">
+  <!-- add  class="w3-tangerine" to your style -->
+  <!-- Font-Awesome Icon link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="jquery-1.4.4.js"></script>
+
+</head>
+<body>
+  <!-- <div class="w3-auto"> -->
+  <!-- <div class="w3-container"> -->
+  
+    <!-- Navbar -->
+    <div class="w3-top" id="navbar">
+      <div class="w3-bar w3-black  w3-large">
+        <a href="index.html" class="w3-bar-item w3-button w3-hover-teal"><i class="fa fa-home icon-bar-logo"></i>Home </a>
+        <!-- Social -->
+        <div class="rounded-social-buttons ">
+          <a class="w3-bar-item w3-right w3-hide-small social-button facebook w3-tiny" href="#"></a>
+          <a class="w3-bar-item w3-right w3-hide-small social-button instagram w3-tiny" href="#"></a>
+          <a class="w3-bar-item w3-right w3-hide-small social-button pinterest w3-tiny" href="#"></a>   
+        </div>
+        <a href="#contatti" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal"><i class="fa fa-envelope icon-bar-logo"></i>Contatti</a>
+        <div class="w3-dropdown-hover w3-right">
+          <button class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal">Portfolio</button>
+          <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <a href="#portfolio" class="w3-bar-item w3-button w3-right w3-hover-teal"><i class="fa fa-th icon-bar-logo"></i>Portfolio</a>
+            <a href="restauri.html" class="w3-bar-item w3-button  w3-right w3-hover-teal">Restauri</a>
+            <a href="decori.html" class="w3-bar-item w3-button  w3-right w3-hover-teal">Decori</a>
+            <a href="pittura" class="w3-bar-item w3-button  w3-right w3-hover-teal">Pittura</a>
+          
+          </div>
+            
+            
+        </div>
+        
+
+        <a href="#bio" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal"><i class="fa fa-user icon-bar-logo"></i>Bio</a>
+        
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+      </div>
+      <!-- Navbar Smartphone -->
+      <div id="demo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+        <a href="#bio" class="w3-bar-item  effect effect1 bottone" onclick="toggleFunction()">Bio</a>
+        <a href="#portfolio" class="w3-bar-item effect effect1 bottone" onclick="toggleFunction()">Portfolio</a>
+    
+          <a href="restauri.html" class="move-right w3-bar-item effect effect1 bottone ">Restauri</a>
+          <a href="decori.html" class="move-right w3-bar-item  effect effect1 bottone ">Decori</a>
+          <a href="pittura.html" class="move-right w3-bar-item effect effect1 bottone">Pittura</a>
+         
+        <a href="#contatti" class="w3-bar-item effect effect1 bottone" onclick="toggleFunction()">Contatti</a>
+        <div class="rounded-social-buttons">
+          <a href="" class="social-button facebook social-demo w3-tiny"></a>
+          <a href="" class="social-button instagram social-demo w3-tiny"></a>
+          <a href="" class="social-button pinterest social-demo w3-tiny"></a>
+        </div>
+      </div>
+    </div>
+    <!-- // Used to toggle the menu on small screens when clicking on the menu button -->
+    <script>
+    function toggleFunction() {
+    var x = document.getElementById("demo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+    }
+    </script>
+  <br>
+  <br>
+  <!-- Header -->
+  <!-- ANCHOR - Header -->
+
+  <div class="w3-container w3-center w3-section w3-padding-32" id="home">
+    <h2>Paola Robbiani </h2>
+    <h3>Decori e Restauri</h3>
+  </div>
+ 
+ <!-- Slider -->
+ <!-- ANCHOR - slider -->
+  <section class="w3-container">
+    <div class="w3-content w3-section" style="max-width:1000px">
+      <img class="mySlides  shadow" src="./assets/Img/slider1.jpg" style="width:100%">
+      <img class="mySlides  shadow" src="./assets/Img/slider2.jpg" style="width:100%">
+      <img class="mySlides  shadow" src="./assets/Img/slider3.jpg" style="width:100%">
+    </div>
+  </section>
+
+  <!-- Bio -->
+<!-- ANCHOR - Bio -->
+<section class="w3-content w3-container w3-padding-64 w3-justify" id="bio">
+  <div class="w3-center">
+    <h3 class="effect effect1">BIO</h3>
+  </div>
+  <p class="w3-center"><em>Adoro Decorare</em></p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio minus doloribus earum voluptate nihil molestias, consequuntur cumque ullam tempore hic, ratione explicabo doloremque, itaque omnis dolorum laboriosam sint consequatur repellendus molestiae ad in modi. Praesentium, iure eum quasi suscipit hic tenetur, dignissimos cumque obcaecati perferendis asperiores cum libero ipsum delectus ipsam quis iste reiciendis optio, voluptates inventore. Labore molestiae quam sapiente reiciendis libero officiis earum quos provident odio rerum possimus fugiat mollitia voluptate iste excepturi quia sint maiores aut neque, porro voluptates molestias? Deserunt, ipsam sit. Rerum veniam saepe maiores provident est obcaecati minus, reiciendis, vitae commodi voluptatem esse possimus.</p>
+  <div class="w3-row">
+    <div class="w3-col m5 w3-center w3-padding-large">
+      <p><b><i class="w3-margin-right"></i>Prova test 1</b></p><br>
+      <img src="./assets/Originali/Copertina/profilo.jpg" class="w3-round w3-image  w3-hover-opacity shadow" alt="Photo of Me" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m7  w3-padding-large">
+      <p><em>lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</em></p>
+    </div>
+  </div>
+  <div class="w3-row">
+    
+
+    <!-- Hide this text on smallw3 devices -->
+     <div class="w3-col m7  w3-padding-large">
+      <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    <div class="w3-col m5 w3-center w3-padding-large">
+      <p><b><i class="w3-margin-right"></i>Prova test 2</b></p><br>
+      <img src="./assets/Originali/Copertina/profilo1.jpg" class="w3-round w3-image w3-hover-opacity shadow" alt="Photo of Me" width="500" height="333">
+    </div>
+  </div>
+</section>
+  <!-- Fasi Lavoro -->
+<!-- ANCHOR - Fasi Lavoro -->
+<section class="w3-khaki w3-padding-64 w3-justify" id="fasi">
+
+  <div class="w3-content">
+  <!-- Prima fase -->
+  <div class="w3-center">
+    <br>
+    <br>
+    <br>
+  <button  class="shake w3-round-large w3-xlarge w3-khaki w3-hover-shadow"  onclick="document.getElementById('id10').style.display='block'">SCOPRI LE FASI DEL MIO LAVORO</button>
+  </div>
+  <div id="id10" class="w3-panel w3-display-container w3-animate-bottom w3-animate-zoom" style="display:none">
+    <span onclick="this.parentElement.style.display='none'"
+    class="w3-button w3-display-topright w3-red">&times;</span>
+    <span onclick="this.parentElement.style.display='none'"
+    class="w3-button w3-display-bottomright w3-red">&times;</span>
+    
+    
+    <h3 class="w3-center">Fasi di Lavoro</h3>
+    <h4 class="w3-center"><em>Sopralluogo</em></h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi tempore ea dolores facere officiis perferendis dignissimos recusandae architecto accusamus magnam accusantium dolorum aut nihil veritatis, itaque nisi quae corporis et.</p>
+    <div class="w3-row">
+      <div class="w3-col m5 w3-center w3-padding-large">
+        <img src="./assets/Originali/Copertina/WhatsApp Image 2020-06-06 at 19.40.08 (1).jpeg" class="w3-round w3-image w3-hover-opacity shadow" alt="Photo of Me" width="500" height="333">
+        <p><b><i class="w3-margin-right"></i>Sopralluogo in villa</b></p><br>
+      </div>
+      
+      <div class="w3-col m7  w3-padding-large centra">
+        <p><em>LLLLLorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+          dolor i</em></p>
+      </div>
+    </div>
+    <!-- Secinda fase -->
+
+    <h4 class="w3-center w3-padding-32"><em>Preventivo</em></h4>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi tempore ea dolores facere officiis perferendis dignissimos recusandae architecto accusamus magnam accusantium dolorum aut nihil veritatis, itaque nisi quae corporis et.</p>
+    <div class="w3-row">
+      <div class="w3-col m5 w3-center w3-padding-large">
+        <img src="./assets/Originali/Copertina/IMG_20190924_151255.jpg" class="w3-round w3-image w3-hover-opacity shadow" alt="Photo of Me" width="500" height="333">
+        <p><b><i class="w3-margin-right"></i>Sopralluogo in villa</b></p><br>
+      </div>
+      
+      <div class="w3-col m7  w3-padding-large centra">
+        <p><em>LLLLLorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+          dolor i</em></p>
+      </div>
+    </div>
+  <!-- Terza Fase -->
+  <h4 class="w3-center w3-padding-32"><em>Stuccatura</em></h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi tempore ea dolores facere officiis perferendis dignissimos recusandae architecto accusamus magnam accusantium dolorum aut nihil veritatis, itaque nisi quae corporis et.</p>
+    <div class="w3-row">
+      <div class="w3-col m5 w3-center w3-padding-large">
+        <img src="./assets/Originali/Copertina/WhatsApp Image 2020-06-06 at 19.40.08.jpeg" class="w3-round w3-image  w3-hover-opacity shadow" alt="Photo of Me" width="500" height="333">
+        <p><b><i class="w3-margin-right"></i>Sopralluogo in villa</b></p><br>
+      </div>
+      
+      <div class="w3-col m7  w3-padding-large centra">
+        <p><em>LLLLLorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+          dolor i</em></p>
+      </div>
+    </div>
+    <!-- Quarta Fase -->
+    <h4 class="w3-center w3-padding-32"><em>Restauro</em></h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi tempore ea dolores facere officiis perferendis dignissimos recusandae architecto accusamus magnam accusantium dolorum aut nihil veritatis, itaque nisi quae corporis et.</p>
+    <div class="w3-row">
+      <div class="w3-col m5 w3-center w3-padding-large">
+        <img src="./assets/Originali/Copertina/WP_20150427_11_59_26_Pro.jpg" class="w3-round w3-image w3-hover-opacity shadow" alt="Photo of Me" width="500" height="333">
+        <p><b><i class="w3-margin-right"></i>Sopralluogo in villa</b></p><br>
+      </div>
+      
+      <div class="w3-col m7  w3-padding-large centra">
+        <p><em>LLLLLorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+          dolor i</em></p>
+      </div>
+    </div>
+  
+  
+
+
+
+
+  </div>
+  <br>
+  <br>
+  <br>
+</div>
+  <script>
+    // elemento modale
+var modal = document.getElementById('id10');
+// gestore dell'evento
+onclick.getElementById('test') = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+  </script>
+
+  
+</section>
+  <!-- ANCHOR - subscribe banner -->
+  <div class="w3-container w3-black w3-padding-32">
+    <div class="w3-content w3-center">
+    <h1>Scrivimi</h1>
+    <p>Richiedi Subito un Preventivo Gratuito</p>
+    <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:60%; margin: auto;"></p>
+    <button type="button" class="w3-button w3-red w3-margin-bottom">Invia</button>
+    </div>
+  </div>
+
+  
+  <!-- Portfolio -->
+  <!-- ANCHOR - Portfolio -->
+<section class="w3-container w3-section w3-content w3-padding-64" id="portfolio">
+  <div class="w3-center">
+    <h3 class="effect effect1">PORTFOLIO</h3>
+  </div>
+  
+  <p class="w3-center"><em>Adoro Decorare</em></p>
+  <div class="photo-cont w3-center">
+    <div class="photo-col">
+      <a href="restauri.html"><img  src="./assets/Originali/Restauro/Villa delle rose.jpg"  alt="" onclick="document.getElementById('modal01').style.display='block'" class="w3-hover-opacity shadow w3-round-xlarge"></a>
+      <h4><em>Restauro</em></h4>  
+      <!-- <div id="modal01" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'">
+        <img class="w3-modal-content" src="./assets/Originali/Restauro/Villa floreal.jpg">
+      </div>   -->
+    </div>
+    <div class="photo-col w3-center">
+      <a href="decori.html"><img  src="./assets/Originali/Decorazione/4.jpg"  alt="" onclick="document.getElementById('modal02').style.display='block'" class="w3-hover-opacity shadow w3-round-xlarge"></a><a href=""></a>
+      <h4><em>Decorazione</em></h4>
+
+    </div>
+    <div class="photo-col w3-center">
+      <a href="pittura.html"><img src="./assets/Img/Pittura3.jpg"  alt="" onclick="document.getElementById('modal03').style.display='block'" class="w3-hover-opacity shadow w3-round-xlarge"></a>
+      <h4><em>Pittura</em></h4>
+      
+    
+      
+    </div>
+    </div>
+
+
+
+</section>
+  <!-- Contatti -->
+<!-- ANCHOR - contatti -->
+
+  
+  <section class="w3-padding-64 w3-grey w3-small w3-center" id="contatti">
+
+    <div class="w3-row-padding w3-content">
+    
+      <div class="w3-col w3-quarter " style="height: 300px !important;">
+        <h4>Info</h4>
+        <p><a href="#">About us</a></p>
+        <p><a href="#">We're hiring</a></p>
+        <p><a href="#">Support</a></p>
+        <p><a href="#">Find store</a></p>
+        <button class="w3-btn w3-round w3-light-gray"><i class="fa fa-download"></i> CV Download</button>
+       
+      </div>
+
+      <div class="w3-col w3-half " style="height: 350px !important;">
+        <h4>Chiedimi un preventivo!</h4>
+        <form action="/action_page.php" target="_blank">
+          <p><input class="w3-input w3-border" type="text" placeholder="Name" name="Name" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Email" name="Email" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Subject" name="Subject" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Message" name="Message" required></p>
+          <button type="submit" class="w3-button w3-block w3-black">Invia</button>
+        </form>
+      </div>
+
+    
+
+      <div class="w3-col w3-quarter" style="height: 300px !important;">
+        <h4>Contatti</h4>
+        <p><i class="fa fa-fw fa-map-marker"></i> Viggiu'(VA) ITALIA</p>
+        <p><i class="fa fa-fw fa-phone"></i> 0039-33338879987</p>
+        <p><i class="fa fa-fw fa-envelope"></i> robbiani.paola@gmail.com</p>
+        <h4>We accept</h4>
+        <p><i class="fa fa-fw fa-cc-amex"></i> Amex</p>
+        <p><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
+        <br>
+        <i class="fa fa-facebook-official w3-hover-opacity w3-large"></i>
+        <i class="fa fa-instagram w3-hover-opacity w3-large"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity w3-large"></i>
+      </div>
+       
+       
+      </div>
+    
+  </section>
+
+  <!-- Footer -->
+<!-- ANCHOR - footer -->
+  <footer class="w3-center w3-black w3-padding-64">
+    <a href="#home" class="w3-btn w3-round-xlarge w3-white w3-hover-teal"><i class="fa fa-arrow-up w3-margin-right"></i>Home</a>
+    <div class="w3-supertiny w3-section rounded-social-buttons">
+      <a class="w3-bar-item  social-button facebook" href="#"></a>
+      <a class="w3-bar-item  social-button instagram" href="#"></a>
+      <a class="w3-bar-item  social-button pinterest" href="#"></a>  
+    </div>
+    <div class="w3-small w3-section">
+      <p>All Artworks Copyright © 2020 by Paola Robbiani - Tutti i diritti riservati</p>
+      <p>Use by permission only / Entire Site Web <a href="https://www.paolarobbiani.it" title="Paola Robbiani" target="_blank" class="w3-hover-text-green">www.paolarobbiani.it</a></p>
+      <p>© Copyright 2020 by Paola Robbiani </p>
+      <p>P.IVA - 34545656667667 </p>
+    </div>  
+  </footer>
+
+</body>
+
+
+
+
+  <!--  Used to toggle the menu on small screens when clicking on the menu button -->
+  <script>
+    
+
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+
+  </script>
+  <!-- menu bar -->
+  <script type="text/javascript" src="js/script.js"></script>
+  <!-- slider -->
+  <script type="text/javascript" src="js/slider.js"></script>
+</html>
